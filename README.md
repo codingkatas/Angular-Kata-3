@@ -22,3 +22,4 @@ You must make sure that subject of the clicked item is shown in the field below 
 There a hints placed in the code.
 
 
+You can check out the solution by cloning the 'solution' branch of this repository.
