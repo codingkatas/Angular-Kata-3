@@ -29,7 +29,7 @@ kata.home.TodoListController = function ($scope, TodoService) {
 
         //Change the line below to use the objectified reference from the parent scope, instead of this.
         // That is: $scope.[object].selectedTodoSubject = todo.subject;
-        $scope.selectedTodoSubject = todo.subject;
+        $scope.model.selectedTodoSubject = todo.subject;
 
     };
 

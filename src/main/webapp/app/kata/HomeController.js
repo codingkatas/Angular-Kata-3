@@ -10,17 +10,8 @@ namespace('kata.home');
 
 
 kata.home.HomeController = function ($scope, TodoService) {
-
-    $scope.selectedTodoSubject;
-
-    /*to make the subject of the selected todo item available to the child scope, you must create a model object,
-    and put the selected todo subject into this. Use the form:
-
     $scope.model = {
-        attribute: value
+        selectedTodoSubject: undefined
     };
-
-    */
-
 };
 
